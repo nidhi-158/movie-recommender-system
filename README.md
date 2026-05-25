@@ -1,44 +1,49 @@
-\# Movie Recommender System 🎬
+# 🎬 Movie Recommendation System
 
+An NLP-based Movie Recommendation System built using Machine Learning and Content-Based Filtering techniques. This project recommends similar movies based on movie metadata such as genres, cast, crew, keywords, and overview using Cosine Similarity.
 
+---
 
-A content-based movie recommendation system built using Python and Streamlit.
+# 🚀 Features
 
+* Movie recommendation based on content similarity
+* Interactive web application using Streamlit
+* Displays movie posters using TMDb API
+* Fast recommendation system using precomputed similarity matrix
+* User-friendly interface with movie selection dropdown
 
+---
 
-\## Project Overview
+# 🛠️ Technologies Used
 
-This project recommends movies using cosine similarity and NLP-based feature extraction.
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* NLP (Natural Language Processing)
+* Streamlit
+* Pickle
+* TMDB API
 
+---
 
+# 🧠 Machine Learning Techniques Used
 
-\## Tech Stack
+* Content-Based Filtering
+* Text Vectorization using `CountVectorizer`
+* Cosine Similarity Algorithm
 
-\- Python
+---
 
-\- Pandas
-
-\- NumPy
-
-\- Scikit-learn
-
-\- Streamlit
-
-
-
-\## Dataset
-
-\- TMDB 5000 Movies Dataset
-
-
-
-\## How to Run
+# 📂 Project Structure
 
 ```bash
-
-pip install -r requirements.txt
-
-streamlit run app.py
-
-
-
+movie-recommender-system/
+│
+├── app.py
+├── movie_list.pkl
+├── similarity.pkl
+├── requirements.txt
+├── README.md
+└── movie-recommender.ipynb
+```
