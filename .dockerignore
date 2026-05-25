@@ -3,6 +3,5 @@ __pycache__/
 movie/
 venv/
 env/
-*.pkl
 .git
 .gitignore
